@@ -1,0 +1,5 @@
+[Unit]
+Description=PrinterCam stream watchdog
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/printercam-watchdog.sh

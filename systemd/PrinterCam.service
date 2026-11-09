@@ -1,0 +1,15 @@
+[Unit]
+Description=PrinterCam - Raspberry Pi Camera MJPEG Streamer
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/printercam
+ExecStartPre=/bin/sleep 12
+ExecStart=/usr/bin/python3 /home/pi/printercam/printercam.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
