@@ -27,6 +27,10 @@ No alternate stack (ustreamer, rpicam-vid as the service, Docker, etc.) is claim
 
 Mechanical design, alternate glass-less cover, watch lens, and adhesive notes belong with the assembly / MakerWorld listing, not this code tree.
 
+## Printing the mount
+
+Printed in PETG on a Cool Plate SuperTack. I used PLA for the support interface only, which makes the supports pop right off PETG with a clean underside. Any brand of PETG should work. Full print profile and 3MF are on the [MakerWorld listing](https://makerworld.com/en/models/3579023-overhead-chamber-camera-for-d3p-riser-x1c).
+
 ## What you get
 
 ```
@@ -138,3 +142,5 @@ No license file is included. Do not assume a license until the author adds one.
 ## Related
 
 MakerWorld listing, 3MF, and physical assembly documentation are maintained separately from this software tree.
+
+- [Overhead Chamber Camera for D3P Riser (X1C)](https://makerworld.com/en/models/3579023-overhead-chamber-camera-for-d3p-riser-x1c)
